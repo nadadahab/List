@@ -16,5 +16,8 @@ To Run Application
 6-Run Laravel server 
    php artisan serve
 
+7-To Run Test Cases
+  vendor/phpunit/phpunit/phpunit
+
 note: 
 mongodb listens on port 27018
