@@ -1,10 +1,12 @@
 @extends('layouts.app')
 @section('content')
 <h1 class="text-center">To Do List</h1>
-<table border="1px" class="table table-hover">
+<br>
+
+<table border="2px" class="table table-hover table-bordered ">
 <tr>
 
-<th>Title</th>
+<th>Task name</th>
 <th>Actions</th>
 
 </tr>
@@ -26,10 +28,11 @@
 
 @endforeach
 </table>
-
- Name :
+<div >
+ Task name :
       <input name="name" id ="name"></input>
       <button id='add' name="view" class="btn btn-info"> Add New</button>
+<div>
 
 @endsection
 
@@ -69,6 +72,7 @@
 </script>
 
 <script>
+
     $(document).on('click','.delete',function(){
     	     let id = $(this).attr('value');
 
