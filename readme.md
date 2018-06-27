@@ -3,7 +3,8 @@ To Run Application
 1-clone repo 
  git clone https://github.com/nadadahab/List.git
 
-2-Make  sure running mongodb server
+2-Make  sure running mongodb server (mongod --smallfiles --port 27018)
+
 
 3-Edit your .env file 
 
