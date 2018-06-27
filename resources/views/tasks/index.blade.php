@@ -30,7 +30,7 @@
 </table>
 <div >
  Task name :
-      <input name="name" id ="name"></input>
+      <input name="name" id ="name" ></input>
       <button id='add' name="view" class="btn btn-info"> Add New</button>
 <div>
 
@@ -56,8 +56,8 @@
                       var dButton = $("<button>").html("Delete")
                       dButton.attr("class","delete btn btn-danger");
                       dButton.attr( "onclick","return confirm('You are sure delete this task??')");
-                      dButton.attr("value",res._id);
-                      row.append($("<td>").html(res.name));
+                      dButton.attr("value",res.task._id);
+                      row.append($("<td>").html(res.task.name));
                       row.append($("<td>").append(dButton));
                       $("table").append(row)
                

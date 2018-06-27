@@ -32,7 +32,7 @@ class TasksController extends Controller
             'name' => $request->name,
         ]);
         
-        return Response::json($task);
+        return Response::json(['task'=>$task]);
 
     }
     
@@ -40,6 +40,7 @@ class TasksController extends Controller
     {
         $task = Task::find($id);
         $task->delete();
+         return Response::json(['deleted'=>"done"]);
     }
 
 }
