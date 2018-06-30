@@ -20,5 +20,18 @@ To Run Application
 7-To Run Test Cases
   vendor/phpunit/phpunit/phpunit
 
-note: 
-mongodb listens on port 27018
+NOTE:
+mongodb listens on port 27018 .
+
+
+For Docker 
+
+1-sudo docker-compose build
+
+2-sudo docker-compose run web mongod --smallfiles --port 27018
+
+3-sudo docker-compose up 
+
+NOTE:
+Make sure you have Docker and Docker-compose . 
+
