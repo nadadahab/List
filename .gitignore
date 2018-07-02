@@ -1,16 +1,5 @@
 
-vendor*
-.idea/misc.xml
-.idea/modules.xml
-.idea/To_Do_List.iml
-.idea/vcs.xml
-.idea/workspace.xml
-.idea/workspace.xml
-vendor/bin/phpunit
-vendor/bin/php-parse
-vendor/bin/phpunit
-vendor/bin/phpunit
-vendor/bin/psysh
-vendor/bin/php-parse
-vendor/bin/phpunit
-vendor/bin/php-parse
+vendor/
+.idea/
+data/
+.env
